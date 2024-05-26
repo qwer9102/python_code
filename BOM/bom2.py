@@ -1,6 +1,7 @@
 from openpyxl import Workbook,load_workbook
 
 #这个是判断（导出bom）ws1中的某列和（系统物料表）ws2中的某列是否匹配，如果匹配，则把ws2的行内容赋值到ws3,不匹配把ws1的行内容赋值到ws3
+#在bom1基础上增加了字符串分割函数部分
 
 wb1 = load_workbook(r"D:\Code_python\exercise\openpyxl\word1.xlsx")
 
